@@ -7,12 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyTableController.h"
 
 @interface BlueViewController : UIViewController
 - (IBAction)goBack:(id)sender;
-@property (strong, nonatomic) NSMutableArray *MakerArray;
-@property (strong, nonatomic) NSMutableArray *ModelArray;
-@property (strong, nonatomic) NSMutableArray *ImageArray;
 @property (strong, nonatomic) IBOutlet UITableView *myTableView;
+@property (strong, nonatomic) MyTableController *myObjectController;
 
 @end

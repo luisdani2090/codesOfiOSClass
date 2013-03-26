@@ -83,20 +83,20 @@
                                     <action selector="goBack:" destination="Jph-Rc-Vbk" eventType="touchUpInside" id="iSM-OI-ZbX"/>
                                 </connections>
                             </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="qM8-q9-nUe">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="75" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="qM8-q9-nUe">
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="537" id="wT5-Nb-bf3"/>
                                 </constraints>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" restorationIdentifier="" selectionStyle="blue" indentationWidth="10" reuseIdentifier="Cell" rowHeight="106" id="i51-nO-k4H" customClass="MyCustomCell">
-                                        <rect key="frame" x="0.0" y="46" width="320" height="108"/>
+                                    <tableViewCell autoresizesSubviews="NO" contentMode="scaleToFill" restorationIdentifier="" selectionStyle="blue" indentationWidth="10" reuseIdentifier="Cell" rowHeight="75" id="i51-nO-k4H" customClass="MyCustomCell">
+                                        <rect key="frame" x="0.0" y="46" width="320" height="77"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="10" y="1" width="300" height="105"/>
+                                            <rect key="frame" x="10" y="1" width="300" height="74"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sci-AA-SmK">
+                                                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sci-AA-SmK">
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="93" id="P99-Bq-W0A"/>
                                                         <constraint firstAttribute="width" constant="94" id="tZV-Vm-saw"/>
@@ -128,8 +128,8 @@
                                             <constraint firstItem="QFS-3a-iAF" firstAttribute="trailing" secondItem="obk-gP-uCH" secondAttribute="trailing" type="default" id="ekG-Od-gUk"/>
                                             <constraint firstItem="Sci-AA-SmK" firstAttribute="bottom" secondItem="bfF-6r-pgj" secondAttribute="bottom" type="default" id="jsl-N3-6JF"/>
                                             <constraint firstItem="obk-gP-uCH" firstAttribute="leading" secondItem="i51-nO-k4H" secondAttribute="leading" constant="141" id="kBc-ew-qar"/>
-                                            <constraint firstAttribute="trailing" secondItem="bfF-6r-pgj" secondAttribute="trailing" constant="91" id="pAZ-Wb-WL4"/>
                                             <constraint firstItem="QFS-3a-iAF" firstAttribute="top" secondItem="obk-gP-uCH" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="vlc-oy-yxK"/>
+                                            <constraint firstAttribute="trailing" secondItem="bfF-6r-pgj" secondAttribute="trailing" constant="56" id="wZs-JF-ebO"/>
                                             <constraint firstItem="obk-gP-uCH" firstAttribute="top" secondItem="Sci-AA-SmK" secondAttribute="top" type="default" id="xsy-CU-56u"/>
                                         </constraints>
                                         <connections>
